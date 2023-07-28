@@ -3,9 +3,9 @@ Steps to install and setup ansible
 1) Install python on master
     sudo -i
 
-    apt-get install python-minimal
+    apt update -y
 
-    apt-get install python3
+    apt-get install python3 -y
 
     python3 --version
 
