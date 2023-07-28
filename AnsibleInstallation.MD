@@ -20,6 +20,8 @@ Steps to install and setup ansible
 
     apt-get install ansible
 
+    ansible --version
+
 3) Create a public key for master
     ssh-keygen -t rsa     (Creates public and private key at /root/.ssh)
 
